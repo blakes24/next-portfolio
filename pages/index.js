@@ -1,5 +1,7 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Link from "next/link";
+import Navbar from "../components/Navbar";
+import styles from "../styles/Home.module.scss";
 
 export default function Home() {
   return (
@@ -9,16 +11,14 @@ export default function Home() {
         <meta name="description" content="Blakely's developer portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Navbar />
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hi, I'm Blakely.
-        </h1>
-
-        <p className={styles.description}>
-          I'm a full-stack software developer.
-        </p>
+        <h1 className={styles.title}>Blakely Burns</h1>
+        <p className={styles.description}>Full-stack web developer</p>
+        <Link href="/projects">
+          <a className={styles.link}>View my work</a>
+        </Link>
       </main>
     </div>
-  )
+  );
 }
