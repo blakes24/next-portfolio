@@ -23,8 +23,8 @@ function Navbar() {
       <Link href="/contact">
         <a>Contact</a>
       </Link>
-      <Link href="/resume">
-        <a>Resume</a>
+      <Link href="/BlakelyBurns-Resume.pdf">
+        <a target="_blank">Resume</a>
       </Link>
     </>
   );
