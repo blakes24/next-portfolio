@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,4 +31,11 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.link {
+  background-color: black;
+  color: white;
+  padding: .8rem;
+  border-radius: 10px;
 }
