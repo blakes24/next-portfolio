@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "../styles/Navbar.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -7,7 +7,12 @@ import { useMediaQuery } from "react-responsive";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const [mobileNav, setMobileNav] = useState(false);
   const isMobile = useMediaQuery({ query: "(max-width: 576px)" });
+
+  useEffect(() => {
+    setMobileNav(isMobile);
+  }, [isMobile]);
 
   const links = (
     <>
@@ -23,9 +28,9 @@ function Navbar() {
       <Link href="/contact">
         <a>Contact</a>
       </Link>
-      <Link href="/BlakelyBurns-Resume.pdf">
-        <a target="_blank">Resume</a>
-      </Link>
+      <a href="/BlakelyBurns-Resume.pdf" target="_blank">
+        Resume
+      </a>
     </>
   );
 
@@ -33,7 +38,7 @@ function Navbar() {
 
   return (
     <nav className={styles.main}>
-      {isMobile ? (
+      {mobileNav ? (
         <span className={styles.mobile}>
           <FontAwesomeIcon
             icon={faBars}
