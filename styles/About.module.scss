@@ -1,0 +1,39 @@
+@import 'variables';
+
+.main {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.bio {
+  img {
+    min-width: 12rem;
+    width: 25%;
+    margin: 0 1rem;
+    border-radius: 100%;
+  }
+
+  p {
+    margin: 1rem 2rem;
+  }
+}
+
+.skills {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: .8rem;
+}
+
+@media (min-width: #{$bp-desktop}) {
+  .main {
+    font-size: 1.3rem;
+  }
+  .skills {
+    font-size: 1rem;
+  }
+}
+@media (min-width: #{$bp-desktop-xl}) {
+  .main {
+    font-size: 1.5rem;
+  }
+}
