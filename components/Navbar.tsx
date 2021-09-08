@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useMediaQuery } from "react-responsive";
 
-function Navbar() {
+const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
-  const isMobile = useMediaQuery({ query: "(max-width: 576px)" });
+  const isMobile: boolean = useMediaQuery({ query: "(max-width: 576px)" });
 
   useEffect(() => {
     setMobileNav(isMobile);
@@ -52,6 +52,6 @@ function Navbar() {
       )}
     </nav>
   );
-}
+};
 
 export default Navbar;

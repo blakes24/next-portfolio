@@ -1,7 +1,7 @@
 import Icon from "./Icon";
 import styles from "../styles/About.module.scss";
 
-export default function About() {
+const About: React.FC = () => {
   const skills = [
     "javaScript",
     "react",
@@ -42,4 +42,6 @@ export default function About() {
       </div>
     </div>
   );
-}
+};
+
+export default About;
