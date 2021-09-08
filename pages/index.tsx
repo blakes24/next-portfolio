@@ -1,9 +1,9 @@
-import Head from 'next/head'
+import Head from "next/head";
 import Link from "next/link";
 import About from "../components/About";
 import styles from "../styles/Home.module.scss";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <main className={styles.main}>
       <div className={styles.landing}>
@@ -16,4 +16,6 @@ export default function Home() {
       <About />
     </main>
   );
-}
+};
+
+export default Home;
