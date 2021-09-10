@@ -23,7 +23,7 @@ const About: React.FC = () => {
     "heroku",
   ];
   return (
-    <div className={styles.main} id="about">
+    <section className={styles.main} id="about">
       <h2>About Me</h2>
       <div className={styles.bio}>
         <img src="/images/profile-square.jpg" alt="Blakely Burns" />
@@ -40,7 +40,7 @@ const About: React.FC = () => {
           <Icon skill={skill} key={skill} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

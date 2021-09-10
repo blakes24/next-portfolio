@@ -1,7 +1,8 @@
 import Navbar from "./navbar";
 import Head from "next/head";
+import React from "react";
 
-export default function Layout({ children }) {
+const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Head>
@@ -13,4 +14,6 @@ export default function Layout({ children }) {
       <main>{children}</main>
     </>
   );
-}
+};
+
+export default Layout;

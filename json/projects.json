@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lc",
+    "title": "LangChat",
+    "description": "A web-based chat app that helps users learn a new language by allowing them to chat with other users who speak their target language.",
+    "tech": "Node.js, Express, PostgreSQL, React, Redux, and Socket.io",
+    "live": "https://langchat.netlify.app/",
+    "repo": "https://github.com/blakes24/language-chat-fe",
+    "img": "langchat.png"
+  },
+  {
+    "id": "jb",
+    "title": "Jobly",
+    "description": "A job search web app where users can find job postings and look up company information.",
+    "tech": "Node.js, Express, PostgreSQL, React, and Redux",
+    "live": "https://minor-list.surge.sh/",
+    "repo": "https://github.com/blakes24/Jobly-frontend",
+    "img": null
+  },
+  {
+    "id": "tl",
+    "title": "Teacher Lab",
+    "description": "A web app designed for teachers to make backward planning and collaboration more efficient",
+    "tech": "Node.js, Express, PostgreSQL, React",
+    "live": "https://teacherlab-fe.vercel.app/",
+    "repo": "https://github.com/blakes24/Education-backend",
+    "img": null
+  },
+  {
+    "id": "da",
+    "title": "Dive Atlas",
+    "description": "A web app where scuba divers can discover new dive sites, share their experiences, and keep a record of past dives.",
+    "tech": "Python, Flask, PostgreSQL, SQLAlchemy, Mapbox, and JavaScript",
+    "live": null,
+    "repo": "https://github.com/blakes24/dive-atlas",
+    "img": null
+  }
+]
