@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import About from "../components/About";
+import ProjectContainer from "../components/ProjectContainer";
 import styles from "../styles/Home.module.scss";
 
 const Home: React.FC = () => {
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
         </Link>
       </div>
       <About />
+      <ProjectContainer />
     </main>
   );
 };
