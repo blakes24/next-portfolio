@@ -5,8 +5,17 @@
   color: white;
   display: flex;
   justify-content: flex-end;
-  a {
-    margin-right: 1rem;
+  position: absolute;
+  z-index: 10;
+  
+  ul {
+    list-style: none;
+    margin: 0;
+
+    li {
+      margin-right: 1rem;
+      display: inline;
+    }
   }
 }
 
@@ -14,9 +23,19 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  a {
-    margin-top: 1rem;
+  font-size: 1.5rem;
+  
+  ul {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 2rem;
+  }
+
+  ul li {
+    display: block;
     margin-right: 0;
+    text-align: center;
+    margin-top: 2rem;
   }
 }
 
