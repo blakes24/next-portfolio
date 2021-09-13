@@ -14,27 +14,34 @@ const Navbar: React.FC = () => {
     setMobileNav(isMobile);
   }, [isMobile]);
 
-  const links = (
-    <>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-      <Link href="#about">
-        <a>About</a>
-      </Link>
-      <Link href="#projects">
-        <a>Projects</a>
-      </Link>
-      <Link href="/contact">
-        <a>Contact</a>
-      </Link>
-      <a href="/BlakelyBurns-Resume.pdf" target="_blank">
-        Resume
-      </a>
-    </>
-  );
+  const toggleMenu = () => {
+    mobileNav && setOpen(!open);
+  };
 
-  const toggleMenu = () => setOpen(!open);
+  const links = (
+    <ul>
+      <li onClick={toggleMenu}>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
+      </li>
+      <li onClick={toggleMenu}>
+        <Link href="#about">
+          <a>About</a>
+        </Link>
+      </li>
+      <li onClick={toggleMenu}>
+        <Link href="#projects">
+          <a>Projects</a>
+        </Link>
+      </li>
+      <li onClick={toggleMenu}>
+        <Link href="#contact">
+          <a>Contact</a>
+        </Link>
+      </li>
+    </ul>
+  );
 
   return (
     <nav className={styles.main}>
