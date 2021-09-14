@@ -1,6 +1,5 @@
 import styles from "../styles/ProjectContainer.module.scss";
 import projectList from "../json/projects.json";
-import Project from "./ProjectCard";
 import ProjectCard from "./ProjectCard";
 
 const ProjectContainer: React.FC = () => {
