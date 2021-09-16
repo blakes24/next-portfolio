@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       <div className={styles.landing}>
         <h1 className={styles.title}>Blakely Burns</h1>
         <p className={styles.description}>Full-stack web developer</p>
-        <Link href="/projects">
+        <Link href="#projects">
           <a className={styles.link}>View my work</a>
         </Link>
       </div>

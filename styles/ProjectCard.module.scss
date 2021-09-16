@@ -1,13 +1,13 @@
 @import "variables";
 
 .main {
-  background-color: $dark;
+  background-color: $primary;
   color: $light;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  max-width: 400px;
   padding: 1rem;
   margin: 2rem;
 

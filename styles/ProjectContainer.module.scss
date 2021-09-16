@@ -1,15 +1,14 @@
 @import "variables";
 
 .main {
-  // background-color: $dark;
-  // color: $light;
+  color: $light;
+  background-color: $primary-dark;
   // display: flex;
   // flex-direction: column;
   // justify-content: center;
   // align-items: center;
-  // width: 80vw;
+  width: 100vw;
   // padding: 1rem;
-  // margin: 2rem;
 
   h2 {
     text-align: center;

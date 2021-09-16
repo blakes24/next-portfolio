@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
   const links = (
     <ul>
       <li onClick={toggleMenu}>
-        <Link href="/">
+        <Link href="#">
           <a>Home</a>
         </Link>
       </li>

@@ -1,7 +1,9 @@
+@import 'variables';
+
 .main {
   padding: 1rem;
   width: 100%;
-  background-color: black;
+  background-color: $primary-dark;
   color: white;
   display: flex;
   justify-content: flex-end;
