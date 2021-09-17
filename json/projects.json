@@ -15,7 +15,7 @@
     "tech": "Node.js, Express, PostgreSQL, React, and Redux",
     "live": "https://minor-list.surge.sh/",
     "repo": "https://github.com/blakes24/Jobly-frontend",
-    "img": null
+    "img": "jobly.png"
   },
   {
     "id": "tl",
@@ -24,7 +24,7 @@
     "tech": "Node.js, Express, PostgreSQL, React",
     "live": "https://teacherlab-fe.vercel.app/",
     "repo": "https://github.com/blakes24/Education-backend",
-    "img": null
+    "img": "teacher-lab.png"
   },
   {
     "id": "da",
@@ -33,6 +33,6 @@
     "tech": "Python, Flask, PostgreSQL, SQLAlchemy, Mapbox, and JavaScript",
     "live": null,
     "repo": "https://github.com/blakes24/dive-atlas",
-    "img": null
+    "img": "dive-atlas.png"
   }
 ]
