@@ -1,14 +1,14 @@
 @import "variables";
 
 .footer {
-  background-color: $primary-dark;
+  background-color: $primary;
   color: white;
   padding: 1.5rem;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
 
   .icons {
-    margin-top: 1.5rem;
+    margin: 1.5rem 0.5rem;
 
     a {
       color: white;
