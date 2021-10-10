@@ -6,7 +6,8 @@
     "tech": "Node.js, Express, PostgreSQL, React, Redux, and Socket.io",
     "live": "https://langchat.netlify.app/",
     "repo": "https://github.com/blakes24/language-chat-fe",
-    "img": "langchat.png"
+    "img": "langchat.png",
+    "login": "Username: guest1 Password: gupwd123"
   },
   {
     "id": "jb",
@@ -15,7 +16,8 @@
     "tech": "Node.js, Express, PostgreSQL, React, and Redux",
     "live": "https://minor-list.surge.sh/",
     "repo": "https://github.com/blakes24/Jobly-frontend",
-    "img": "jobly.png"
+    "img": "jobly.png",
+    "login": "Username: guest1 Password: gupwd123"
   },
   {
     "id": "tl",
@@ -24,7 +26,8 @@
     "tech": "Node.js, Express, PostgreSQL, React",
     "live": "https://teacherlab-fe.vercel.app/",
     "repo": "https://github.com/blakes24/Education-backend",
-    "img": "teacher-lab.png"
+    "img": "teacher-lab.png",
+    "login": "Username: teacher1 Password: teacher1pwd"
   },
   {
     "id": "da",
@@ -33,6 +36,27 @@
     "tech": "Python, Flask, PostgreSQL, SQLAlchemy, Mapbox, and JavaScript",
     "live": null,
     "repo": "https://github.com/blakes24/dive-atlas",
-    "img": "dive-atlas.png"
+    "img": "dive-atlas.png",
+    "login": null
+  },
+  {
+    "id": "c8",
+    "title": "Crazy Eights",
+    "description": "A crazy eights card game played against the computer, built with React for the Mintbean Hiring Hackathon.",
+    "tech": "React, JavaScript, HTML, CSS",
+    "live": "https://crazyeights.netlify.app/",
+    "repo": "https://github.com/blakes24/crazy-eights",
+    "img": "crazy8.png",
+    "login": null
+  },
+  {
+    "id": "hr",
+    "title": "Haunted Run",
+    "description": "A 2D haunted platformer built with Phaser 3 for Mintbean's Hiring Hackathon.",
+    "tech": "Phaser 3, JavaScript, HTML, CSS",
+    "live": "https://blakes24.github.io/haunted-run",
+    "repo": "https://github.com/blakes24/haunted-run",
+    "img": "haunted-run.png",
+    "login": null
   }
 ]
