@@ -9,13 +9,15 @@ const Home: React.FC = () => {
     <main className={styles.main}>
       <div className={styles.landing}>
         <h1 className={styles.title}>Blakely Burns</h1>
-        <p className={styles.description}>Full-stack web developer</p>
+        <p className={styles.description}>
+          Software Developer | JavaScript | React | Node | Python
+        </p>
         <Link href="#projects">
           <a className={styles.link}>View my work</a>
         </Link>
       </div>
-      <About />
       <ProjectContainer />
+      <About />
     </main>
   );
 };

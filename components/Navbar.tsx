@@ -26,13 +26,13 @@ const Navbar: React.FC = () => {
         </Link>
       </li>
       <li onClick={toggleMenu}>
-        <Link href="#about">
-          <a>About</a>
+        <Link href="#projects">
+          <a>Projects</a>
         </Link>
       </li>
       <li onClick={toggleMenu}>
-        <Link href="#projects">
-          <a>Projects</a>
+        <Link href="#about">
+          <a>About</a>
         </Link>
       </li>
       <li onClick={toggleMenu}>

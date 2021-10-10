@@ -6,7 +6,7 @@ import styles from "../styles/Footer.module.scss";
 const Footer: React.FC = () => {
   return (
     <footer className={styles.footer} id="contact">
-      <h3>Contact Me</h3>
+      <h2>Contact Me</h2>
       <a href="mailto: burnsblakely@gmail.com">burnsblakely@gmail.com</a>
       <div className={styles.icons}>
         <a

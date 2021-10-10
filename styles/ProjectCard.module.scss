@@ -1,11 +1,11 @@
 @import "variables";
 
 .main {
-  background-color: $primary;
+  background-color: $primary-dark;
   color: $light;
   max-width: 400px;
   margin: 1.2rem;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px;
   img {
     width: 100%;
   }
