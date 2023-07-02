@@ -4,6 +4,7 @@ import styles from "../styles/About.module.scss";
 const About: React.FC = () => {
   const skills = [
     "javaScript",
+    "typescript",
     "react",
     "redux",
     "node",
